@@ -90,8 +90,9 @@ a {
 }
 .form {
   position: absolute;
-    top: 148px;
+    top: 45px;
     right: 11px;
+    padding: 5px;
 }
 .delete-btn {
   background-color: rgba(182, 183, 238, 0.954);
