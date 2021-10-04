@@ -1,9 +1,10 @@
+// import images from 'src/images'
 
 const menu = [
     {
         id: 1,
         title: 'Buttermilk Pancakes',
-        category: 'breakfast',
+        category: 'Breakfast',
         price: 10.99,
         img: 'src/images/pancakkes.jpeg',
         desc: `Simple`
@@ -11,23 +12,23 @@ const menu = [
     {
         id: 2,
         title: 'Banana Pancakes',
-        category: 'breakfast',
+        category: 'Breakfast',
         price: 11.99,
-        img: 'src/images/Banana-Pancakes-2-2.jpeg',
+        img: './images/Banana-Pancakes-2-2.jpeg',
         desc: `Like the Song`
     },
     {
         id: 3,
         title: 'Waffles',
-        category: 'breakfast',
+        category: 'Breakfast',
         price: 13.99,
-        img: 'src/images/waffle.jpeg',
+        img: './images/waffle.jpeg',
         desc: `Butter and Syrup included`
     },
     {
         id: 4,
         title: 'Egg Sandwich',
-        category: 'breakfast',
+        category: 'Breakfast',
         price: 7.99,
         img: 'src/images/egg sandwich.jpeg',
         desc: `I'm baby woke mlkshk wolf bitters',`
@@ -35,7 +36,7 @@ const menu = [
     {
         id: 5,
         title: 'Chicken Tendies',
-        category: 'lunch',
+        category: 'Lunch',
         price: 12.99,
         img: '',
         desc: `Fried or Grilled`
@@ -43,7 +44,7 @@ const menu = [
     {
         id: 6,
         title: 'Chicken Nuggies',
-        category: 'lunch',
+        category: 'Lunch',
         price: 12.99,
         img: 'src/images/nugs.jpeg',
         desc: `I'm baby woke mlkshk wolf bitters',`
@@ -51,7 +52,7 @@ const menu = [
     {
         id: 7,
         title: 'Dogs',
-        category: 'lunch',
+        category: 'Lunch',
         price: 10.99,
         img: 'src/images/dgos.jpeg',
         desc: `Dog in a bun`
@@ -59,7 +60,7 @@ const menu = [
     {
         id: 8,
         title: 'Ribeye',
-        category: 'dinner',
+        category: 'Dinner',
         price: 35.99,
         img: 'src/images/steak.jpeg',
         desc: `14 oz`
@@ -67,7 +68,7 @@ const menu = [
     {
         id: 9,
         title: 'Grilled Chicken',
-        category: 'dinner',
+        category: 'Dinner',
         price: 15.99,
         img: '',
         desc: `Grilled Chicken Fillet`
@@ -75,7 +76,7 @@ const menu = [
     {
         id: 10,
         title: 'Eggplant Parm',
-        category: 'dinner',
+        category: 'Dinner',
         price: 18.99,
         img: '',
         desc: `Eggplant Parm`
@@ -83,18 +84,18 @@ const menu = [
     {
         id: 11,
         title: 'NewYork Strip',
-        category: 'dinner',
+        category: 'Dinner',
         price: 30.99,
-        img: '',
-        desc: ``
+        img: './images/Eggplant-Parmesan-Recipe-f.jpeg',
+        desc: `8 oz`
     },
     {
         id: 12,
         title: 'Wings',
-        category: 'dinner',
+        category: 'Dinner',
         price: 15.99,
         img: '',
-        desc: `Only Hot Ones`
+        desc: `Sauces: Barbecue, Jerk, Franks, Sweet-Chili`
     },
 ];
 

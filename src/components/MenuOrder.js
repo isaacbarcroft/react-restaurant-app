@@ -1,9 +1,6 @@
-import { render } from "@testing-library/react";
-import { useState } from "react";
-import MenuItem from "./MenuItem";
-
 function MenuOrder(props){
 
+ 
 console.log(props?.order)
     const orderHTML = props?.order.map(item =>  <div><h3>{item.title}</h3><p>{item.price}</p></div>)
     console.log(orderHTML);
@@ -13,10 +10,12 @@ console.log(props?.order)
 
     return (
         <> 
+    <div class="order" >
         <h2>Order</h2>
         {orderHTML}
         {`Subtotal: $${totalPrice}`}
-        <button type="delete" >Clear Order</button>
+        <button class="delete-btn" type="delete" >Clear Order</button>
+    </ div>
         </>
     )
 }

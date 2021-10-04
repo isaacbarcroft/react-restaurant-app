@@ -1,3 +1,105 @@
+
 .App {
+
   text-align: center;
+  background-image: url('./images/vegetables-set-left-black-slate.jpg') ;
+  background-size: auto;
+  background-position: center;
+min-height: 100vh;
+}
+img {
+  width: 100%;
+}
+p {
+  /* border:  */
+  font-family: fantasy;
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+  text-transform: uppercase;
+}
+
+.nav-btn {
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+  background:rgb(146, 148, 248);
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5%;
+}
+
+.nav-btn:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.nav-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+.headers {
+  color:rgb(205, 205, 220);
+  font-size: 30px;
+  font-style:normal;
+  font-family: cursive;
+}
+.btn2 {
+  background-color: rgba(182, 183, 238, 0.954);
+  color: rgb(69, 67, 67);
+  padding: 5px;
+}
+.itemName {
+  color: rgba(182, 183, 238, 0.954);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menuItemList {
+  margin: 10px;
+}
+.menuOrder {
+  position: absolute;
+  top: 84px;
+  color: white;
+  right: 35px;
+  border: 1px white solid;
+}
+.form {
+  position: absolute;
+    top: 148px;
+    right: 11px;
+}
+.delete-btn {
+  background-color: rgba(182, 183, 238, 0.954);
+  color: rgb(69, 67, 67);
+  padding: 4px;
+}
+.submit-btn {
+  background-color: rgba(182, 183, 238, 0.954);
+  color: rgb(69, 67, 67);
+  padding: 4px;
 }

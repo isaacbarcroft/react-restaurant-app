@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function MenuItem(props){
     // console.log(props)
     // console.log(props.menuItem?.title);
@@ -7,12 +5,14 @@ function MenuItem(props){
 
     const previewHTML = (
         <>
-        <h3>{props.menuItem?.title}</h3>
+    <div class="menuItemList">
+        <h3 class="itemName">{props.menuItem?.title}</h3>
         <p>{props.menuItem?.price}</p>
-        <img src={props.menuItem?.img} alt="" />
-        <p>{props.menuItem?.desc}</p>
-        <button type="button" onClick={() => props.addOrder(props.menuItem?.title, props.menuItem?.price)}>Add to order </button>
-        <button type="button" onClick={() => props.deleteOrder(props.id)}>Remove from order </button>
+        <img src= {` props.menuItem?.img.value `} alt="" />
+        <p>'{props.menuItem?.desc}'</p>
+        <button class="btn2" type="button" onClick={() => props.addOrder(props.menuItem?.title, props.menuItem?.price)}>Add to order </button>
+        <button class="btn2"  type="button" onClick={() => props.deleteItem(props.id)}>Remove from order </button>
+        </div>
         </>
     )
 
