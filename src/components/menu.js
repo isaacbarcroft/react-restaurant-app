@@ -1,12 +1,12 @@
-import eggplant from '../images/Eggplant-Parmesan-Recipe-f.jpeg'
-// import  from '../images/dgos'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
+import eggplant from '../images/Eggplant-Parmesan-Recipe-f.jpeg';
+import dog from '../images/dgos.jpeg';
+import nugs from '../images/nugs.jpeg';
+import banana from '../images/Banana-Pancakes-2-2.jpeg';
+import tendies from '../images/chicken-fingers-today-main-200227.jpeg';
+import egg_sandwich from '../images/egg sandwich.jpeg';
+import pancakes from '../images/pancakkes.jpeg';
+import steak from '../images/steak.jpeg'
+import waffle from '../images/waffle.jpeg'
 // import  from '../images/'
 // import  from '../images/'
 // import  from '../images/'
@@ -30,15 +30,15 @@ const menu = [
         title: 'Buttermilk Pancakes',
         category: 'Breakfast',
         price: 10.99,
-        img: './images/pancakkes.jpeg',
-        desc: `Simple`
+        img: pancakes,
+        desc: `All the Butter`
     },
     {
         id: 2,
         title: 'Banana Pancakes',
         category: 'Breakfast',
         price: 11.99,
-        img: './images/Banana-Pancakes-2-2.jpeg',
+        img: banana,
         desc: `Like the Song`
     },
     {
@@ -46,7 +46,7 @@ const menu = [
         title: 'Waffles',
         category: 'Breakfast',
         price: 13.99,
-        img: '../images/waffle.jpeg',
+        img: waffle,
         desc: `Butter and Syrup included`
     },
     {
@@ -54,7 +54,7 @@ const menu = [
         title: 'Egg Sandwich',
         category: 'Breakfast',
         price: 7.99,
-        img: 'src/images/egg sandwich.jpeg',
+        img: egg_sandwich,
         desc: `I'm baby woke mlkshk wolf bitters',`
     },
     {
@@ -112,7 +112,7 @@ const menu = [
         title: 'Dogs',
         category: 'Lunch',
         price: 10.99,
-        img: 'src/images/dgos.jpeg',
+        img: dog,
         desc: `Dog in a bun, relish included`
     },
     {
@@ -120,7 +120,7 @@ const menu = [
         title: 'Chicken Nuggies',
         category: 'Lunch',
         price: 12.99,
-        img: 'src/images/nugs.jpeg',
+        img: nugs,
         desc: `I'm baby woke mlkshk wolf bitters',`
     },
    
@@ -188,7 +188,7 @@ const menu = [
         title: 'Ribeye',
         category: 'Dinner',
         price: 35.99,
-        img: 'src/images/steak.jpeg',
+        img: steak,
         desc: `14 oz`
     },
     {
