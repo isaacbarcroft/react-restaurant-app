@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState, useEffect } from 'react';
-import menu from './menu';
+import menu from './components/menu';
 import MenuList from './components/MenuList';
 import MenuOrder from './components/MenuOrder';
 import MenuForm from './components/MenuCategory/MenuForm';
@@ -40,7 +40,7 @@ if(response.ok){
 }  
   }
   function deleteOrder(){
-        setOrder(null);
+        setOrder([]);
   }
 
 

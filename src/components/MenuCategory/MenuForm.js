@@ -29,7 +29,7 @@ const [number, setNumber] = useState("");
         <form class="form" action="" onSubmit={handleSubmit}>
            
             <input name="name"  type="text" value={fullName} placeholder="Full Name" onChange={handleChange}></input>
-            <input name="number" type="number" value={number} placeholder="Phone Number" onChange={handleChangeNumber}></input>
+            <input name="number" type="tel" value={number} placeholder="Phone Number" onChange={handleChangeNumber}></input>
             {/* <input name="email" type="email" value={email} placeholder="Email Adress"></input> */}
             {/* <input name="address" type='text' value={adress} placeholder="Address"></input> */}
             <button class="submit-btn" type="submit">Place Order</button>

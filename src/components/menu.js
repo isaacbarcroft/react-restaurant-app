@@ -1,4 +1,28 @@
-// import images from 'src/images'
+import eggplant from '../images/Eggplant-Parmesan-Recipe-f.jpeg'
+// import  from '../images/dgos'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
+// import  from '../images/'
 
 const menu = [
     {
@@ -6,7 +30,7 @@ const menu = [
         title: 'Buttermilk Pancakes',
         category: 'Breakfast',
         price: 10.99,
-        img: 'src/images/pancakkes.jpeg',
+        img: './images/pancakkes.jpeg',
         desc: `Simple`
     },
     {
@@ -22,7 +46,7 @@ const menu = [
         title: 'Waffles',
         category: 'Breakfast',
         price: 13.99,
-        img: './images/waffle.jpeg',
+        img: '../images/waffle.jpeg',
         desc: `Butter and Syrup included`
     },
     {
@@ -180,7 +204,7 @@ const menu = [
         title: 'Eggplant Parm',
         category: 'Dinner',
         price: 18.99,
-        img: '',
+        img: eggplant,
         desc: `Eggplant Parm`
     },
     {
