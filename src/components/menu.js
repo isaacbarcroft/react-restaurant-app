@@ -7,22 +7,22 @@ import egg_sandwich from '../images/egg sandwich.jpeg';
 import pancakes from '../images/pancakkes.jpeg';
 import steak from '../images/steak.jpeg'
 import waffle from '../images/waffle.jpeg'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
-// import  from '../images/'
+import egg_benny from '../images/ar-eggs-benedict-articleLarge.jpeg'
+import chick_waffles from '../images/cornflake-fried-chicken-waffles-with-pecans-0318-103284235.jpeg'
+import burrito from '../images/Breakfast-Burritos.jpeg'
+import french_toast from '../images/french-toast-11-1200.jpeg'
+import wings from '../images/wings.jpeg'
+import burger from '../images/burger.jpeg'
+import blt from '../images/blt.jpeg'
+import taco from '../images/tacos.jpeg'
+import fish from '../images/halibut.jpeg'
+import shrimp from '../images/shrimp.jpeg'
+import alfredo from '../images/alfredo.jpeg'
+import strip from '../images/strip.jpeg'
+import piccata from '../images/piccata.jpeg'
+import duck from '../images/duck.jpeg'
+import scallops from '../images/scallops.jpeg'
+import sword from '../images/sword.jpeg'
 
 const menu = [
     {
@@ -62,7 +62,7 @@ const menu = [
         title: 'French Toast',
         category: 'Breakfast',
         price: 10.99,
-        img: '',
+        img: french_toast,
         desc: ``
     },
     
@@ -71,7 +71,7 @@ const menu = [
         title: 'Eggs Bennies',
         category: 'Breakfast',
         price: 10.99,
-        img: '',
+        img: egg_benny,
         desc: ``
     },
     {
@@ -79,7 +79,7 @@ const menu = [
         title: 'Chicken & Waffles',
         category: 'Breakfast',
         price: 14.99,
-        img: '',
+        img: chick_waffles,
         desc: ``
     },
     {
@@ -87,7 +87,7 @@ const menu = [
         title: 'Breakfast Burrito',
         category: 'Breakfast',
         price: 10.99,
-        img: '',
+        img: burrito,
         desc: ``
     },
    
@@ -96,7 +96,7 @@ const menu = [
         title: 'Wings',
         category: 'Lunch',
         price: 9.99,
-        img: '',
+        img: wings,
         desc: `Sauces: Barbecue, Jerk, Franks, Sweet-Chili`
     },
     {
@@ -104,7 +104,7 @@ const menu = [
         title: 'Burger',
         category: 'Lunch',
         price: 12.99,
-        img: '',
+        img: burger,
         desc: `Nothing over medium`
     },
     {
@@ -129,7 +129,7 @@ const menu = [
         title: 'Turkey BLT',
         category: 'Lunch',
         price: 8.99,
-        img: '',
+        img: blt,
         desc: ``
     },
     
@@ -138,7 +138,7 @@ const menu = [
         title: 'Pork Carnita Tacos',
         category: 'Lunch',
         price: 15.99,
-        img: '',
+        img: taco,
         desc: ``
     },
       
@@ -147,7 +147,7 @@ const menu = [
         title: 'Halibut',
         category: 'Dinner',
         price: 28.99,
-        img: '',
+        img: fish,
         desc: ``
     },
     {
@@ -155,7 +155,7 @@ const menu = [
         title: 'Shrimp Scampi',
         category: 'Dinner',
         price: 25.99,
-        img: '',
+        img: shrimp,
         desc: ``
     },
     {
@@ -163,7 +163,7 @@ const menu = [
         title: 'Chicken Alfredo',
         category: 'Dinner',
         price: 19.99,
-        img: '',
+        img: alfredo,
         desc: ``
     }, 
      
@@ -172,7 +172,7 @@ const menu = [
         title: 'Chicken Piccata',
         category: 'Dinner',
         price: 15.99,
-        img: '',
+        img: piccata,
         desc: `Grilled Chicken Fillet`
     },
     {
@@ -180,7 +180,7 @@ const menu = [
         title: 'Pan Seared Duck Breast',
         category: 'Dinner',
         price: 27.99,
-        img: '',
+        img: duck,
         desc: ``
     },
     {
@@ -196,7 +196,7 @@ const menu = [
         title: 'NewYork Strip',
         category: 'Dinner',
         price: 30.99,
-        img: './images/Eggplant-Parmesan-Recipe-f.jpeg',
+        img: strip,
         desc: `8 oz`
     },
     {
@@ -212,7 +212,7 @@ const menu = [
         title: 'Seared Sea Scallops',
         category: 'Dinner',
         price: 29.99,
-        img: '',
+        img: scallops,
         desc: ``
     }, 
     {
@@ -220,7 +220,7 @@ const menu = [
         title: 'Swordfish',
         category: 'Dinner',
         price: 26.99,
-        img: '',
+        img: sword,
         desc: ``
     },
 
