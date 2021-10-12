@@ -146,7 +146,7 @@ const menu = [
         id: 19,
         title: 'Halibut',
         category: 'Dinner',
-        price: 28.99,
+        price: 23.99,
         img: fish,
         desc: ``
     },
@@ -162,7 +162,7 @@ const menu = [
         id: 22,
         title: 'Chicken Alfredo',
         category: 'Dinner',
-        price: 19.99,
+        price: 15.99,
         img: alfredo,
         desc: ``
     }, 

@@ -2,7 +2,7 @@ function MenuOrder(props){
 
  
 console.log(props?.order)
-    const orderHTML = props.order?.map(item =>  <div><h3>{item.title}</h3><p>{item.price}</p></div>)
+    const orderHTML = props.order?.map(item =>  <div><h3>{item.title}</h3><p>{`$${item.price}`}</p></div>)
     console.log(orderHTML);
     const priceHTML = props.order?.map(item => item.price);
     const totalPrice = props.order?.reduce((acc, item) => acc + item.price, 0);

@@ -5,6 +5,8 @@ function MenuForm(props){
 const [fullName, setFullName] = useState("");
 const [number, setNumber] = useState("");
 
+
+
     function handleChange(event) {
         setFullName(event.target.value);
     }
@@ -20,6 +22,7 @@ const [number, setNumber] = useState("");
         setNumber("");
         console.log(event.target.value);
         console.log(event);
+        
     }
 
     return(

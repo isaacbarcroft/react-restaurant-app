@@ -14,6 +14,23 @@ function App() {
   const [selection, setSelection] = useState();
   const [order, setOrder] = useState([]);
 
+
+
+  useEffect(() => {
+    getMenuItems()
+    // GET request using fetch with async/await
+    async function getMenuItems(){
+    const response = await fetch('https://django-restaurant-app--isaac.herokuapp.com/api_v1/menuitems/');
+    const data = await response.json();
+   console.log(data)
+    setMenuItems(data) ;
+
+    }// return menuItemsAPI
+
+},[setMenuItems])
+console.log(menuItems)
+console.log(setMenuItems)
+
   const categories = [...new Set(menu.map(item => item.category))];
   const categoriesHTML = categories.map(category => <button class="nav-btn" key={category} onClick={() => setSelection(category)}>{category}</button>);
 
@@ -21,13 +38,14 @@ function App() {
 
   async function submitOrder(name, order, number){
     const newOrder = {
-      fullname: name, 
-      title: order, 
-      number: number,
+      title: name, 
+      item: order, 
+      phone_number: number,
+      // total_price:
     };
     console.log(newOrder);
     // updateOrder([...order, newOrder]);
-const response = await fetch('https://tiny-taco-server.herokuapp.com/FeedMe/', {
+const response = await fetch('https://django-restaurant-app--isaac.herokuapp.com/api_v1/orders/', {
   method: 'POST',
   headers: {
     'Content-Type' : 'application/json',
