@@ -10,7 +10,7 @@ import MenuForm from './components/MenuCategory/MenuForm';
 // const BASE_URL = 'https://tiny-taco-server.herokuapp.com/FeedMe/';
 
 function App() {
-  const [menuItems,setMenuItems] = useState(menu);
+  const [menuItems,setMenuItems] = useState([]);
   const [selection, setSelection] = useState();
   const [order, setOrder] = useState([]);
 
@@ -31,7 +31,7 @@ function App() {
 console.log(menuItems)
 console.log(setMenuItems)
 
-  const categories = [...new Set(menu.map(item => item.category))];
+  const categories = [...new Set(menuItems?.map(item => item.category))];
   const categoriesHTML = categories.map(category => <button class="nav-btn" key={category} onClick={() => setSelection(category)}>{category}</button>);
 
   const filteredMenuItems = menuItems.filter(menuItem => selection ? menuItem.category === selection : menuItem);
@@ -44,17 +44,16 @@ console.log(setMenuItems)
       // total_price:
     };
     console.log(newOrder);
-    // updateOrder([...order, newOrder]);
-const response = await fetch('https://django-restaurant-app--isaac.herokuapp.com/api_v1/orders/', {
-  method: 'POST',
-  headers: {
-    'Content-Type' : 'application/json',
-  },
-  body: JSON.stringify(newOrder),
-});
-if(response.ok){
- return response.json();
- 
+    const response = await fetch('https://django-restaurant-app--isaac.herokuapp.com/api_v1/orders/', {
+      method: 'POST',
+      headers: {
+        'Content-Type' : 'application/json',
+      },
+      body: JSON.stringify(newOrder),
+    });
+    if(response.ok){
+      return response.json();
+    
 }  
   }
   function deleteOrder(){
@@ -86,7 +85,7 @@ function addOrder(title, price){
       </div>
       <MenuList selection={selection} menuItems={filteredMenuItems} deleteItem={deleteItem} addOrder={addOrder}/>
      <div class="menuOrder">
-     <MenuOrder  order={order} menuItem={menuItems} deleteOrder={deleteOrder} />
+     <MenuOrder  order={order} menuItem={menuItems} deleteOrder={deleteOrder} deleteItem={deleteItem} />
      </div>
      <MenuForm  order={order} submitOrder={submitOrder} />
       
