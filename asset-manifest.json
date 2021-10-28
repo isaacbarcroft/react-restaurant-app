@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-restaurant-app/static/css/main.d6f0c5fe.chunk.css",
-    "main.js": "/react-restaurant-app/static/js/main.d1042f2e.chunk.js",
-    "main.js.map": "/react-restaurant-app/static/js/main.d1042f2e.chunk.js.map",
+    "main.js": "/react-restaurant-app/static/js/main.768ea9ec.chunk.js",
+    "main.js.map": "/react-restaurant-app/static/js/main.768ea9ec.chunk.js.map",
     "runtime-main.js": "/react-restaurant-app/static/js/runtime-main.7599ebd2.js",
     "runtime-main.js.map": "/react-restaurant-app/static/js/runtime-main.7599ebd2.js.map",
-    "static/js/2.16596b1a.chunk.js": "/react-restaurant-app/static/js/2.16596b1a.chunk.js",
-    "static/js/2.16596b1a.chunk.js.map": "/react-restaurant-app/static/js/2.16596b1a.chunk.js.map",
+    "static/js/2.c29ff8eb.chunk.js": "/react-restaurant-app/static/js/2.c29ff8eb.chunk.js",
+    "static/js/2.c29ff8eb.chunk.js.map": "/react-restaurant-app/static/js/2.c29ff8eb.chunk.js.map",
     "static/js/3.4559ed1d.chunk.js": "/react-restaurant-app/static/js/3.4559ed1d.chunk.js",
     "static/js/3.4559ed1d.chunk.js.map": "/react-restaurant-app/static/js/3.4559ed1d.chunk.js.map",
     "index.html": "/react-restaurant-app/index.html",
     "static/css/main.d6f0c5fe.chunk.css.map": "/react-restaurant-app/static/css/main.d6f0c5fe.chunk.css.map",
-    "static/js/2.16596b1a.chunk.js.LICENSE.txt": "/react-restaurant-app/static/js/2.16596b1a.chunk.js.LICENSE.txt",
+    "static/js/2.c29ff8eb.chunk.js.LICENSE.txt": "/react-restaurant-app/static/js/2.c29ff8eb.chunk.js.LICENSE.txt",
     "static/media/Banana-Pancakes-2-2.d494b637.jpeg": "/react-restaurant-app/static/media/Banana-Pancakes-2-2.d494b637.jpeg",
     "static/media/Breakfast-Burritos.33d020c7.jpeg": "/react-restaurant-app/static/media/Breakfast-Burritos.33d020c7.jpeg",
     "static/media/Eggplant-Parmesan-Recipe-f.b77fd2d4.jpeg": "/react-restaurant-app/static/media/Eggplant-Parmesan-Recipe-f.b77fd2d4.jpeg",
@@ -41,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7599ebd2.js",
-    "static/js/2.16596b1a.chunk.js",
+    "static/js/2.c29ff8eb.chunk.js",
     "static/css/main.d6f0c5fe.chunk.css",
-    "static/js/main.d1042f2e.chunk.js"
+    "static/js/main.768ea9ec.chunk.js"
   ]
 }
